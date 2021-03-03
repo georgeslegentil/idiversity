@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Une méthode issue des neurosciences",
+    "subTitle": "Théorie des intelligences multiples, plasticité cérébrale, étude des biais cognitifs…nourrissent depuis plus de 30 ans des approches innovantes qui ont fait leurs preuves dans la sphère éducative. IDiversity met à profit ces travaux de recherche et outils pédagogiques issus des neurosciences et des sciences cognitives auprès d’adultes dans l’univers professionnel",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Les modes d’action IDiversity",
+    "subTitle": "IDiversity, répertorié organisme de formation, intervient auprès d’entreprises, écoles, associations, à travers divers modes d’action, pour être à même de s’insérer dans tout projet quel que soit son stade de maturité. Car il n’est jamais trop tard pour agir sur l’employabilité.",
+    "direction": "row"
+  }
+]
