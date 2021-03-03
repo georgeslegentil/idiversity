@@ -9,6 +9,7 @@ export const Title = styled.p`
   margin-top: 0;
 `;
 
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -156,6 +157,7 @@ export const Feature = styled.div`
 
 export const FeatureTitle = styled(Title)`
   margin-left: 0;
+  color: white;
 `;
 
 export const FeatureClose = styled.button`
