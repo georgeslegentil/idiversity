@@ -6,6 +6,7 @@ import logo from '../logo.png';
 import { FirebaseContext } from '../context/firebase';
 import { SelectProfileContainer } from './profiles';
 import 'firebase/firestore';
+import { Link } from "react-router-dom"
 
 
 
@@ -81,7 +82,7 @@ export function BrowseContainer({ slides }) {
               <Header.Dropdown>
                 <Header.Group>
                   <Header.Picture src={user.photoURL} />
-                  <Header.TextLink >{user.displayName}</Header.TextLink>
+                  <Link to="/update-profile"><Header.TextLink >{user.displayName}</Header.TextLink></Link>
                 </Header.Group>
                 <Header.Group>
                   <Header.TextLink onClick={() => firebase.auth().signOut()}>Se déconnecter</Header.TextLink>
@@ -93,7 +94,6 @@ export function BrowseContainer({ slides }) {
             </Header.Profile>
           </Header.Group>
         </Header.Frame>
-
         <Header.Feature>
           <Header.FeatureCallOut>Faire grandir le potentiel humain</Header.FeatureCallOut>
           <Header.Text>

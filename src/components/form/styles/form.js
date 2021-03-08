@@ -89,3 +89,20 @@ export const Submit = styled.button`
     opacity: 0.5;
   }
 `;
+
+export const Cancel = styled.button`
+  background: #b11010;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 24px 0 12px;
+  padding: 16px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+`;
+
